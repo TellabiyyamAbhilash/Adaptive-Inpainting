@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./example/IAM.png">
+  <img src="./example/AIM.png">
 </p>
 
 # Inpaint Anything: Segment Anything Meets Image Inpainting
