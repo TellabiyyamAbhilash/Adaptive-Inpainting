@@ -3,9 +3,9 @@
 </p>
 
 # Inpaint Anything: Segment Anything Meets Image Inpainting
-Inpaint Anything can inpaint anything in **images**, **videos** and **3D scenes**!
-- Authors: Tao Yu, Runseng Feng, Ruoyu Feng, Jinming Liu, Xin Jin, Wenjun Zeng and Zhibo Chen.
-- Institutes: University of Science and Technology of China; Eastern Institute for Advanced Study.
+Inpaint Anything can inpaint anything in **images**.
+<!-- - Authors: Tao Yu, Runseng Feng, Ruoyu Feng, Jinming Liu, Xin Jin, Wenjun Zeng and Zhibo Chen. -->
+<!-- - Institutes: University of Science and Technology of China; Eastern Institute for Advanced Study. -->
 - [[Website](https://huggingface.co/spaces/InpaintAI/Inpaint-Anything)] [[Hugging Face Homepage](https://huggingface.co/InpaintAI)]
 <p align="center">
   <img src="./example/MainFramework.png" width="100%">
@@ -136,14 +136,14 @@ python fill_anything.py \
 
 
 ## <span id="replace-anything">📌 Replace Anything</span>
-<!-- <table>
+ <table>
   <caption align="center">Text prompt: "a man in office"</caption>
     <tr>
       <td><img src="./example/replace-anything/man/with_points.png" width="100%"></td>
       <td><img src="./example/replace-anything/man/with_mask.png" width="100%"></td>
       <td><img src="./example/replace-anything/man/replaced_with_mask.png" width="100%"></td>
     </tr>
-</table> -->
+</table> 
 <p align="center">Text prompt: "a man in office"</p>
 <p align="center">
     <img src="./example/GIF/Replace-man.gif" alt="image" style="width:400px;">
