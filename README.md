@@ -45,14 +45,14 @@ For the MobileSAM project, please refer to [MobileSAM](https://github.com/Chaoni
 
 
 ## <span id="fill-anything">📌 Fill Anything</span>
-<!-- <table>
+<table>
   <caption align="center">Text prompt: "a teddy bear on a bench"</caption>
     <tr>
       <td><img src="./example/fill-anything/sample1/with_points.png" width="100%"></td>
       <td><img src="./example/fill-anything/sample1/with_mask.png" width="100%"></td>
       <td><img src="./example/fill-anything/sample1/filled_with_mask.png" width="100%"></td>
     </tr>
-</table> -->
+</table>
 <p align="center">Text prompt: "a teddy bear on a bench"</p>
 <p align="center">
     <img src="./example/GIF/Fill-sample1.gif" alt="image" style="width:400px;">
