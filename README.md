@@ -41,12 +41,8 @@ Download the model checkpoints provided in [Segment Anything](./segment_anything
 
 For MobileSAM, the sam_model_type should use "vit_t", and the sam_ckpt should use "./weights/mobile_sam.pt".
 For the MobileSAM project, please refer to [MobileSAM](https://github.com/ChaoningZhang/MobileSAM)
-```
-bash script/remove_anything.sh
 
-```
-Specify an image and a point, and Remove Anything will remove the object at the point.
-```bash
+
 
 ## <span id="fill-anything">📌 Fill Anything</span>
 <!-- <table>
