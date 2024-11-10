@@ -2,8 +2,8 @@
   <img src="./example/AIM.jpg">
 </p>
 
-# Inpaint Anything: Segment Anything Meets Image Inpainting
-Inpaint Anything can inpaint anything in **images**.
+# Adaptive Inpainting: Segment Anything Meets Image Inpainting with Style Transfer
+Adaptive Inpainting can inpaint anything in **images** and transfers the style.
 <!-- - Authors: Tao Yu, Runseng Feng, Ruoyu Feng, Jinming Liu, Xin Jin, Wenjun Zeng and Zhibo Chen. -->
 <!-- - Institutes: University of Science and Technology of China; Eastern Institute for Advanced Study. -->
 - [[Website](https://huggingface.co/spaces/InpaintAI/Inpaint-Anything)] [[Hugging Face Homepage](https://huggingface.co/InpaintAI)]
@@ -11,7 +11,7 @@ Inpaint Anything can inpaint anything in **images**.
   <img src="./example/MainFramework.png" width="100%">
 </p>
 
-TL; DR: Users can select any object in an image by clicking on it. With powerful vision models, e.g., [SAM](https://arxiv.org/abs/2304.02643), [LaMa](https://arxiv.org/abs/2109.07161) and [Stable Diffusion (SD)](https://arxiv.org/abs/2112.10752), **Inpaint Anything** is able to remove the object smoothly (i.e., *Remove Anything*). Further, prompted by user input text, Inpaint Anything can fill the object with any desired content (i.e., *Fill Anything*) or replace the background of it arbitrarily (i.e., *Replace Anything*).
+TL; DR: Users can select any object in an image by clicking on it. With powerful vision models, e.g., [SAM](https://arxiv.org/abs/2304.02643), [LaMa](https://arxiv.org/abs/2109.07161) and [Stable Diffusion (SD)](https://arxiv.org/abs/2112.10752), **Adaptive Inpainting** is able to remove the object smoothly (i.e., *Remove Anything*). Further, prompted by user input text, Adaptive Inpainting can fill the object with any desired content (i.e., *Fill Anything*) or replace the background of it arbitrarily (i.e., *Replace Anything*).
 
 
 ## 🌟 Features
@@ -19,7 +19,7 @@ TL; DR: Users can select any object in an image by clicking on it. With powerful
 - [x] [**Replace** Anything](#replace-anything)
 
 
-**Click** on an object in the image, and Inpainting Anything will **remove** it instantly!
+**Click** on an object in the image, and Adaptinve Inpainting will **remove** it instantly and transfers its style!
 - Click on an object;
 - [Segment Anything Model](https://segment-anything.com/) (SAM) segments the object out;
 - Inpainting models (e.g., [LaMa](https://advimman.github.io/lama-project/)) fill the "hole".
@@ -58,7 +58,7 @@ For the MobileSAM project, please refer to [MobileSAM](https://github.com/Chaoni
     <img src="./example/GIF/Fill-sample1.gif" alt="image" style="width:400px;">
 </p>
 
-**Click** on an object, **type** in what you want to fill, and Inpaint Anything will **fill** it!
+**Click** on an object, **type** in what you want to fill, and Adaptive Inpainting will **fill** it!
 - Click on an object;
 - [SAM](https://segment-anything.com/) segments the object out;
 - Input a text prompt;
@@ -149,7 +149,7 @@ python fill_anything.py \
     <img src="./example/GIF/Replace-man.gif" alt="image" style="width:400px;">
 </p>
 
-**Click** on an object, **type** in what background you want to replace, and Inpaint Anything will **replace** it!
+**Click** on an object, **type** in what background you want to replace, and Adaptive Inpainting will **replace** it!
 - Click on an object;
 - [SAM](https://segment-anything.com/) segments the object out;
 - Input a text prompt;
