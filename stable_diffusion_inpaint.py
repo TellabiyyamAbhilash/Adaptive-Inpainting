@@ -26,6 +26,7 @@ def fill_img_with_sd(
     img_crop_filled = pipe(
         prompt=text_prompt,
         image=Image.fromarray(img_crop),
+        num_inference_steps=10,
         mask_image=Image.fromarray(mask_crop)
     ).images[0]
     img_filled = crop_for_filling_post(img, mask, np.array(img_crop_filled))
@@ -36,7 +37,7 @@ def replace_img_with_sd(
         img: np.ndarray,
         mask: np.ndarray,
         text_prompt: str,
-        step: int = 50,
+        step: int = 10,
         device="cuda"
 ):
     pipe = StableDiffusionInpaintPipeline.from_pretrained(
